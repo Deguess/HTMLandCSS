@@ -1,0 +1,51 @@
+/* ---- Modificação do menu principal ---- */
+/* Visited - Link que o usuário visitou */
+#s1 a:visited{
+	color: white;
+}
+
+/* Hover - Quando o usuário passa o mouse sobre */
+#s1 a:hover{
+	color: blue;
+	background-color: green;
+}
+
+/* Active - No momento que é clicado */
+#s1 a:active {
+	color: black;
+	background-color: purple;
+}
+
+/* Link - Ainda não foi visitado */
+/* Padding
+	 Primeiro valor - Altura
+	 Segundo valor - largura */
+#s1 a:link, a:visited{
+	background-color: #f44336;
+	padding: 14px 25px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 8px;
+	width: 120px;
+}
+/* Fim da modificação do menu principal */
+
+/* ---- Modificação do menu âncora ---- */
+#s2 a:link{
+	color: green;
+} 
+
+#s2 a:visited{
+	color: red;
+}
+
+#s2 a:hover{
+	color: yellow;
+	font-size: 20px;
+}
+
+#s2 a:active{
+	color: orange;
+}
+/* Fim da modificação do menu âncora */
+
